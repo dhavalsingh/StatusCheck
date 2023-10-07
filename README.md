@@ -20,8 +20,10 @@ Service Status Checker is a simple yet efficient tool developed by **Your Organi
    url: 'https://yourservice.com/health-check' // Health-check endpoint
 }
 ```
+3. increment the count of ```const totalServices = 9;``` to match the number of services in statusChecker.js
+
 ## Add org name
-Change the value of the orgName
+Change the value of the orgName in servicesConfig.js
 ```const orgName = "Anarock";```
 
 Save and reload. Your new service will now be tracked by the Service Status Checker.
