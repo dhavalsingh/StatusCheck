@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Service Status Checker</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body class="bg-gray-100 font-sans">
+    <div class="container mx-auto mt-10 p-4 bg-white shadow-md rounded">
+      <!-- Theme Toggle Button -->
+      <button
+        class="theme-btn bg-gray-400 px-4 py-2 rounded-full cursor-pointer flex items-center"
+        id="themeToggle"
+      >
+        <span id="themeIcon" class="text-2xl mr-2">🌞</span>
+        <span>Mode</span>
+      </button>
+      <div class="text-center my-5" id="overallStatus">
+        <div class="text-4xl" id="statusIcon">🔄</div>
+        <!-- Placeholder icon for loading -->
+        <h2 class="text-2xl" id="statusMessage">Checking services...</h2>
+      </div>
+      <h1 class="text-2xl mb-8 text-center border-b pb-4">
+        Current Status by Service
+      </h1>
+      <div class="flex flex-wrap -mx-2">
+        <div class="w-1/2 px-2">
+          <table class="min-w-full table-auto border-collapse">
+            <tbody id="serviceStatusTableBodyLeft">
+              <!-- Left half of services will be dynamically added here -->
+            </tbody>
+          </table>
+        </div>
+        <div class="w-1/2 px-2">
+          <table class="min-w-full table-auto border-collapse">
+            <tbody id="serviceStatusTableBodyRight">
+              <!-- Right half of services will be dynamically added here -->
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <footer class="mt-10 border-t pt-5">
+      <p class="text-center text-sm">
+        If a service is down, please contact the respective person/team.
+      </p>
+      <p class="text-center text-sm mt-2">
+        Guidelines for contacting:
+        <a
+          href="https://nohello.net/en/"
+          target="_blank"
+          class="underline text-blue-500"
+          >No Hello</a
+        >
+      </p>
+      <p class="text-center text-sm mt-4">Created with ❤️</p>
+    </footer>
+    <script src="/js/servicesConfig.js"></script>
+    <script src="/js/statusChecker.js"></script>
+  </body>
+</html>
