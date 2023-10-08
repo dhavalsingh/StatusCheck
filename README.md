@@ -1,6 +1,9 @@
 # Service Status Checker 🌐
 
-Service Status Checker is a simple yet efficient tool developed by **Your Organization Name** to provide an at-a-glance view of the operational status of various APIs or services. Through this platform, users can instantly verify if a particular service is up, down, or experiencing issues.
+Service Status Checker is a simple yet efficient tool developed to provide an at-a-glance view of the operational status of various APIs or services. Through this platform, users can instantly verify if a particular service is up, down, or experiencing issues.
+
+## Dark mode sample view.
+![Screenshot 2023-10-07 at 12 33 24 PM](https://github.com/dhavalsingh/StatusCheck/assets/16350274/f37125f6-1e8c-4267-83cc-834161401898)
 
 ## Features 🚀
 
