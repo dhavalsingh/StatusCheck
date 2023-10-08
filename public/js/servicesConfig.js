@@ -3,44 +3,20 @@
 // Define your service URLs and IDs here
 const services = [
   {
-    id: "status_lead",
-    url: "https://lead.beta.staging.anarock.com/health-check",
+    id: "status_google",
+    url: "https://google.com",
   },
   {
-    id: "status_employee",
-    url: "https://employee.beta.staging.anarock.com/health-check",
+    id: "status_bing",
+    url: "https://bing.com",
   },
   {
-    id: "status_mail",
-    url: "https://mail.beta.staging.anarock.com/health-check",
-  },
-  {
-    id: "status_triton",
-    url: "https://triton.beta.staging.anarock.com/health-check",
-  },
-  {
-    id: "status_form",
-    url: "https://forms.beta.staging.anarock.com/health-check",
-  },
-  {
-    id: "status_meta",
-    url: "https://meta.beta.staging.anarock.com/health-check",
-  },
-  {
-    id: "status_sms",
-    url: "https://sms.beta.staging.anarock.com/health-check",
-  },
-  {
-    id: "status_plutus",
-    url: "https://plutus.beta.staging.anarock.com/health-check",
-  },
-  {
-    id: "status_data",
-    url: "https://data.beta.staging.anarock.com/health_check",
+    id: "status_github",
+    url: "https:/github.com",
   },
 ];
 // Add this line at the beginning of your servicesConfig.js
-const orgName = "Anarock";
+const orgName = "Sample Org Name";
 
 // Add a function to expose the serviceName to other scripts
 function getOrgName() {

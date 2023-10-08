@@ -16,10 +16,11 @@ Service Status Checker is a simple yet efficient tool developed by **Your Organi
 
 ```javascript
 {
-   id: 'status_yourservice', // Unique identifier for your service
-   url: 'https://yourservice.com/health-check' // Health-check endpoint
+   id: 'status_servicename', // Unique identifier for your service
+   url: 'https://servicename.com/health-check' // Health-check endpoint
 }
 ```
+The service name is showed as Servicename Service (anything you put after _ in the id)
 3. increment the count of ```const totalServices = 9;``` to match the number of services in statusChecker.js
 
 ## Add org name

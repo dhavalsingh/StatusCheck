@@ -1,7 +1,7 @@
 // Global variables to track service checks
 let serviceCount = 0;
 let allServicesUp = true;
-const totalServices = 9; // Adjust if the number of services changes
+const totalServices = 3; // Adjust if the number of services changes
 
 function checkServiceStatus(serviceUrl, elementId) {
   const requestOptions = {
